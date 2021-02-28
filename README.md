@@ -1,5 +1,7 @@
 # VSCode Spaces
 
+**ATTENTION! An extension is currently under active development. Not usable yet.**
+
 More than workspaces. Save presets of your workspaces and use them across many projects. \
 Configure your workspace once, and save that configuration into Space. Space will contain the following settings:
 * Workspace settings
