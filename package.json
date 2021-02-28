@@ -1,25 +1,19 @@
 {
-  "name": "vscode-spaces",
+	"name": "vscode-spaces",
 	"displayName": "Spaces",
 	"description": "More than workspaces. Save presets of your workspaces and use them across many projects.",
 	"version": "0.0.1",
+	"publisher": "ireknazm",
 	"engines": {
 		"vscode": "^1.53.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [
-        "onCommand:vscode-spaces.helloWorld"
-	],
+	"activationEvents": [],
 	"main": "./dist/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "vscode-spaces.helloWorld",
-				"title": "Hello World"
-			}
-		]
+		"commands": []
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
