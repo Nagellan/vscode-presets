@@ -41,7 +41,8 @@ class ViewProvider implements vscode.WebviewViewProvider {
           <title>Spaces</title>
       </head>
       <body>
-          <button>Create Space</button>
+	  	  <p>An extension is currently under active development.<br /><b>Not usable yet.</b></p>
+		  <button disabled>Create a Space</button>
       </body>
       </html>`;
 	}
