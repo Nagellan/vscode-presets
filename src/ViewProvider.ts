@@ -28,11 +28,16 @@ class ViewProvider implements vscode.WebviewViewProvider {
 	}
 
 	private getWebviewContent() {
+		const styleVSCodeUri = this.view?.webview.asWebviewUri(
+			vscode.Uri.joinPath(this.extensionUri, 'resources', 'vscode.css')
+		);
+
 		return `<!DOCTYPE html>
       <html lang="en">
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <link href="${styleVSCodeUri}" rel="stylesheet">
           <title>Spaces</title>
       </head>
       <body>
