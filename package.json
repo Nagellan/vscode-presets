@@ -13,7 +13,26 @@
 	"activationEvents": [],
 	"main": "./dist/extension.js",
 	"contributes": {
-		"commands": []
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "vscode-spaces",
+					"title": "Spaces",
+					"icon": "resources/logo.svg"
+				}
+			]
+		},
+		"views": {
+			"vscode-spaces": [
+				{
+					"type": "webview",
+					"id": "vscode-spaces-view",
+					"name": "Spaces",
+					"icon": "resources/logo.svg",
+					"contextualTitle": "Spaces"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
