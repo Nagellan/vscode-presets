@@ -1,12 +1,12 @@
 {
-	"name": "vscode-spaces",
-	"displayName": "Spaces",
-	"description": "More than workspaces. Save presets of your workspaces and use them across many projects.",
+	"name": "vscode-presets",
+	"displayName": "Presets",
+	"description": "Save presets of your workspaces and use them across many projects.",
 	"version": "0.0.2",
 	"publisher": "ireknazm",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Nagellan/vscode-spaces.git"
+		"url": "https://github.com/Nagellan/vscode-presets.git"
 	},
 	"engines": {
 		"vscode": "^1.53.0"
@@ -15,27 +15,27 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onView:vscode-spaces-view"
+		"onView:vscode-presets-view"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"id": "vscode-spaces",
-					"title": "Spaces",
+					"id": "vscode-presets",
+					"title": "Presets",
 					"icon": "resources/logo.svg"
 				}
 			]
 		},
 		"views": {
-			"vscode-spaces": [
+			"vscode-presets": [
 				{
 					"type": "webview",
-					"id": "vscode-spaces-view",
-					"name": "Spaces",
+					"id": "vscode-presets-view",
+					"name": "Presets",
 					"icon": "resources/logo.svg",
-					"contextualTitle": "Spaces"
+					"contextualTitle": "Presets"
 				}
 			]
 		}

@@ -1,22 +1,18 @@
-# VSCode Spaces
+# VSCode Presets
 
 **ATTENTION! An extension is currently under active development. Not usable yet.**
 
-More than workspaces. Save presets of your workspaces and use them across many projects. \
-Configure your workspace once, and save that configuration into Space. Space will contain the following settings:
+Save presets of your workspaces and use them across many projects. \
+Configure your workspace once, and save that configuration (or its subset) into Preset. The Preset will contain the following settings:
 * Workspace settings
 * Set of extensions
-* Color theme
-* File icon theme
-* Product icon theme
-* Chosen configuration files (e.g. `.eslintrc`, `webpack.config`, `tsconfig`, etc)
+* Preferences (color theme, file icon theme, product icon theme, etc.)
+* Selected configuration files (e.g. `.eslintrc`, `webpack.config`, `tsconfig`, etc.)
 * ...
 
-> Actually, Space may contain the whole `VSCode > Preferences` configuration
+Afterwards, you will be able to create workspaces by your Preset. Each workspace will contain all necessary configuration files, specific themes (colors, file icons, product icons), workspace settings. Moreover, a Preset-specific set of extensions will be installed automatically, enabled workspace-only (ridding you from messing with an innumerable amount of installed ones, enabled by default).
 
-Afterwards, you will be able to create workspaces out of your Space. Each workspace will contain all necessary configuration files, specific themes (colors, file icons, product icons), workspace settings. Moreover, a Space-specific set of extensions will be installed automatically, enabled workspace-only (ridding you from messing with an innumerable amount of installed ones enabled by default).
-
-Finally, instead of a clean workspace, you will have a fully-configured one ready for further development from scratch or not. Community Spaces may save you even more time getting rid of from even configuring the workspace.
+Finally, instead of an empty workspace, you will have a fully-configured one, ready for further development from scratch or not. Community Presets may save you even more time, eliminating the need for workspace configuration.
 
 ## Features
 

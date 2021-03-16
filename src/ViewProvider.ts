@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 class ViewProvider implements vscode.WebviewViewProvider {
-	public static readonly viewId = 'vscode-spaces-view';
+	public static readonly viewId = 'vscode-presets-view';
 
 	private view?: vscode.WebviewView;
 
@@ -38,11 +38,11 @@ class ViewProvider implements vscode.WebviewViewProvider {
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		  <link href="${styleVSCodeUri}" rel="stylesheet">
-          <title>Spaces</title>
+          <title>Presets</title>
       </head>
       <body>
 	  	  <p>An extension is currently under active development.<br /><b>Not usable yet.</b></p>
-		  <button disabled>Create a Space</button>
+		  <button disabled>Create a Preset</button>
       </body>
       </html>`;
 	}
