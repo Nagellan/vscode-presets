@@ -2,7 +2,7 @@
 	"name": "vscode-presets",
 	"displayName": "Presets",
 	"description": "Save presets of your workspaces and use them across many projects.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "ireknazm",
 	"repository": {
 		"type": "git",
